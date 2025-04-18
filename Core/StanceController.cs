@@ -1,7 +1,7 @@
 // --- File: StanceController.cs ---
 using UnityEngine;
 
-namespace SPTStances
+namespace Core
 {
     public enum WeaponStance
     {
