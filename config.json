@@ -1,0 +1,23 @@
+// Place this file in the root mod folder (same level as .csproj file)
+{
+	"enableStances": true,
+	"defaultStance": "Default",
+	"multipliers": {
+		"HighReady": {
+			"sway": 0.8,
+			"ergo": 1.1
+		},
+		"LowReady": {
+			"sway": 0.6,
+			"ergo": 0.9
+		},
+		"Compressed": {
+			"sway": 0.5,
+			"ergo": 0.75
+		},
+		"Default": {
+			"sway": 1.0,
+			"ergo": 1.0
+		}
+	}
+}
