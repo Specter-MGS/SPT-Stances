@@ -1,6 +1,6 @@
 ﻿// --- File: Patches/WeaponPosePatch.cs ---
-using Core;
 using HarmonyLib;
+using SPTStances.Core;
 using UnityEngine;
 
 namespace SPTStances.Patches

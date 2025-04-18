@@ -1,7 +1,7 @@
 // --- File: StanceInput.cs ---
 using UnityEngine;
 
-namespace Core
+namespace SPTStances.Core
 {
     public class StanceInput : MonoBehaviour
     {

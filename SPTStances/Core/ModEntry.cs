@@ -2,7 +2,7 @@
 using BepInEx;
 using HarmonyLib;
 
-namespace Core
+namespace SPTStances.Core
 {
     [BepInPlugin("com.specter.spt.stances", "SPT-Stances", "1.0.0")]
     public class ModEntry : BaseUnityPlugin
