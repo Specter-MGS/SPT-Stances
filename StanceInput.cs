@@ -1,14 +1,15 @@
+// --- File: StanceInput.cs ---
 using UnityEngine;
 
 namespace SPTStances
 {
     public class StanceInput : MonoBehaviour
     {
-        private KeyCode toggleKey = KeyCode.Y; // Default stance toggle key
+        private KeyCode toggleKey = KeyCode.Y;
 
         void Update()
         {
-            if (Input.GetKeyDown(toggleKey))
+            if (UnityEngine.Input.GetKeyDown(toggleKey))
             {
                 StanceController.CycleStance();
             }

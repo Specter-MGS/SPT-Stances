@@ -1,4 +1,4 @@
-// Place this file in the root mod folder (same level as .csproj file)
+// --- File: config.json ---
 {
 	"enableStances": true,
 	"defaultStance": "Default",

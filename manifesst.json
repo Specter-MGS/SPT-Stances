@@ -1,0 +1,9 @@
+// --- File: manifest.json ---
+{
+  "name": "SPT-Stances",
+  "version": "1.0.0",
+  "author": "Specter-MGS",
+  "license": "MIT",
+  "website": "https://github.com/Specter-MGS/SPT-Stances",
+  "description": "Standalone stance mod for SPT-AKI allowing you to cycle between High Ready, Low Ready, Compressed, and Default weapon positions."
+}

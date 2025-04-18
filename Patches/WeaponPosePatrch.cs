@@ -1,3 +1,4 @@
+﻿// --- File: Patches/WeaponPosePatch.cs ---
 using HarmonyLib;
 using UnityEngine;
 
@@ -11,7 +12,6 @@ namespace SPTStances.Patches
             if (__instance?.HandsContainer?.WeaponRoot == null)
                 return;
 
-            // Base values
             Vector3 stanceOffset = Vector3.zero;
             Quaternion stanceRotation = Quaternion.identity;
 
@@ -31,7 +31,7 @@ namespace SPTStances.Patches
                     break;
                 case SPTStances.WeaponStance.Default:
                 default:
-                    return; // Don't offset in Default stance
+                    return;
             }
 
             __instance.HandsContainer.WeaponRoot.localPosition += stanceOffset;
