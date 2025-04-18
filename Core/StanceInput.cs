@@ -1,7 +1,7 @@
 // --- File: StanceInput.cs ---
 using UnityEngine;
 
-namespace SPTStances
+namespace Core
 {
     public class StanceInput : MonoBehaviour
     {
@@ -9,7 +9,7 @@ namespace SPTStances
 
         void Update()
         {
-            if (UnityEngine.Input.GetKeyDown(toggleKey))
+            if (Input.GetKeyDown(toggleKey))
             {
                 StanceController.CycleStance();
             }
