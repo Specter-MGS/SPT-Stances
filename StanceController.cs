@@ -19,7 +19,7 @@ namespace SPTStances
 		public static void CycleStance()
 		{
 			CurrentStance = (WeaponStance)(((int)CurrentStance + 1) % System.Enum.GetValues(typeof(WeaponStance)).Length);
-			Debug.Log($"[SPT-Stances] Switched to stance: {CurrentStance}");
+			UnityEngine.Debug.Log($"[SPT-Stances] Switched to stance: {CurrentStance}");
 		}
 
 		public static float GetStanceSwayMultiplier()
