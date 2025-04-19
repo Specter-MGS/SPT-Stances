@@ -22,3 +22,9 @@
 Use the [Discussions](https://github.com/Specter-MGS/SPT-Stances/discussions) tab to ask questions, share ideas, or seek help.
 
 Thanks for helping improve SPT-Stances ❤️
+
+# CONTRIBUTORS
+
+Special thanks to the following community members for feedback and contributions:
+
+- CJ — for early project structure feedback and helping make SPT-Stances more collaboration-friendly
