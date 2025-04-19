@@ -19,6 +19,9 @@
 		<Reference Include="Assembly-CSharp">
 			<HintPath>$(SolutionDir)_references\Assembly-CSharp.dll</HintPath>
 		</Reference>
+		<Reference Include="Newtonsoft.Json">
+		  <HintPath>_references\Newtonsoft.Json.dll</HintPath>
+		</Reference>
 		<Reference Include="UnityEngine">
 			<HintPath>$(SolutionDir)_references\UnityEngine.dll</HintPath>
 		</Reference>
