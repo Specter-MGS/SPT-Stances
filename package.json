@@ -1,0 +1,11 @@
+{
+  "name": "SPT-Stances",
+  "version": "1.0.1-alpha",
+  "author": "Specter-MGS",
+  "license": "MIT",
+  "main": "Core/ModEntry.dll",
+  "description": "Weapon stance swapping for SPT. Custom offsets, ergonomic effects, and sway control.",
+  "modType": "BepInEx",
+  "dependencies": [],
+  "website": "https://github.com/Specter-MGS/SPT-Stances"
+}
